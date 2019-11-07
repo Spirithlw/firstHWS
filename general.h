@@ -1,0 +1,18 @@
+// general information for my processor
+
+
+#ifndef PROCESSOR_GENERAL_H
+#define PROCESSOR_GENERAL_H
+
+const char version = 1;
+const int signature_long = 8;
+const int signature_version_long = 1;
+const char source_name[] = "/home/egor/forclion2/DREC/processor/source.txt";
+const char machine_file_directory[] = "../";
+const char machine_file_name[] = "MACHINE CODE.BO$$";
+const int register_count = 4;
+const char out_name[] = "/home/egor/forclion2/DREC/processor/output.txt";
+const int accuracy_mul = 1000;
+const int label_array_default_size = 20;
+
+#endif
