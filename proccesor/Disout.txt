@@ -1,0 +1,14 @@
+PUSH 30 
+POP bx 
+PUSH 50 
+label0
+POP ax 
+label1
+PUSH ax 
+PUSH 228 
+JA 15  - label0
+PUSH 35 
+PUSH 11.5 
+JMP 20  - label1
+OUT 
+END 

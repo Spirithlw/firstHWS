@@ -1,0 +1,14 @@
+    PUSH 30
+    POP bx
+    PUSH 50
+    gt :
+    POP ax
+     hut :
+    PUSH ax
+    PUSH 228
+    JA gt
+    PUSH 35
+    PUSH 11.5
+    JMP hut
+    OUT
+    END
