@@ -1,0 +1,8 @@
+PUSH [ cx + 40 ]
+PUSH RAM [ dx + 10 ]
+PUSH [ 10 ]
+PUSH RAM [ ax + 0 ]
+POP cx 
+PUSH 10 
+MUL 
+END 
